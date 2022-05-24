@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    /* if we ass any padding or border on to an element ,it doesnot affect the width and height of the element */
+
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background: url('https://www.teahub.io/photos/full/103-1033393_new-full-hd-wallpapers-1080p.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    font-size: 3rem;
+    color: white;
+}
